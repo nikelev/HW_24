@@ -12,18 +12,19 @@ public class Homework_24 {
 
 Если аргументы содержат неправильный тип, приложение должно вывести сообщение: Wrong type
         * */
-        for (int i = 0; i < args.length; i++) {
-            if (args.length == 0) {
-                System.out.println("char max/min:" + Character.MAX_VALUE + "/" + Character.MIN_VALUE + "\n" +
-                        "long max/min:" + Long.MAX_VALUE + "/" + Long.MIN_VALUE + "\n" +
-                        "short max/min:" + Short.MAX_VALUE + "/" + Short.MIN_VALUE + "\n" +
-                        "int max/min:" + Integer.MAX_VALUE + "/" + Integer.MIN_VALUE + "\n" +
-                        "byte max/min:" + Byte.MAX_VALUE + "/" + Byte.MIN_VALUE + "\n" +
-                        "double max/min:" + Double.MAX_VALUE + "/" + Double.MIN_VALUE + "\n" +
-                        "float max/min:" + Float.MAX_VALUE + "/" + Float.MIN_VALUE + "\n");
+        if (args.length == 0) {
+            System.out.println("char max/min:" + Character.MAX_VALUE + "/" + Character.MIN_VALUE + "\n" +
+                    "long max/min:" + Long.MAX_VALUE + "/" + Long.MIN_VALUE + "\n" +
+                    "short max/min:" + Short.MAX_VALUE + "/" + Short.MIN_VALUE + "\n" +
+                    "int max/min:" + Integer.MAX_VALUE + "/" + Integer.MIN_VALUE + "\n" +
+                    "byte max/min:" + Byte.MAX_VALUE + "/" + Byte.MIN_VALUE + "\n" +
+                    "double max/min:" + Double.MAX_VALUE + "/" + Double.MIN_VALUE + "\n" +
+                    "float max/min:" + Float.MAX_VALUE + "/" + Float.MIN_VALUE + "\n");
 
-            }
-            else {
+        }
+        else {
+        for (int i = 0; i < args.length; i++) {
+
 
                 double maxSize = 0;
                 double minSize = 0;
